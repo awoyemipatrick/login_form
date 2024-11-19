@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1 class="form-mainHeader">Login Form</h1>
+      <img
+        class="bg-img"
+        src="./assets/bg.png"
+        alt="Image by Jensen Art Co from Pixabay"
+      />
+      <div class="form-wrapper">
+        <form class="form" action="" method="post">
+          <div class="input-div">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="Enter your email"
+            />
+          </div>
+
+          <div class="input-div">
+            <label for="password">Password:</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              required
+              placeholder="Enter your password"
+              autocomplete="current-password"
+            />
+          </div>
+          <button class="btn">Login</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
